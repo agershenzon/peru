@@ -2,6 +2,27 @@
   padding-top: 75px;
 }
 
-.tronsize {
+.colgraphics {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
 
+.colcolor1 {
+  background-color: #ffcccc;
+}
+
+.colcolor2 {
+  background-color: #fff;
+}
+
+.colcolor3 {
+  background-color: #ffcccc;
+}
+.navbar {
+  background-color: #ffffcc;
+}
+
+.glyphicon {
+  font-size: 20px;
 }
