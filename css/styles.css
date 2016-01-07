@@ -3,9 +3,10 @@
 }
 
 .colgraphics {
-  width: 300px;
+  width: 200px;
   height: 200px;
-  padding: 10px;
+  margin-top: 20px;
+  box-shadow: 0 0 18px #e0e0eb;
 }
 
 .colcolor1 {
@@ -50,4 +51,22 @@
 
 .col-lg-6 {
   padding-top: 10px;
+}
+
+.form-control {
+  width: 200px;
+  float:right;
+}
+
+@media (min-width: @screen-sm-min) {
+span .glyphicon glyphicon-chevron-left {
+    display: none;
+  }
+span .glyphicon glyphicon-chevron-right {
+    display: none;
+  }
+
+}
+p.text {
+  line-height: 26px;
 }
