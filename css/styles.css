@@ -35,3 +35,19 @@
   height: 280px;
   padding-bottom: 48px;
 }
+
+.third {
+  background-color: #ccffff;
+}
+.btn {
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.second {
+  background-color: #cc99ff;
+}
+
+.col-lg-6 {
+  padding-top: 10px;
+}
