@@ -4,6 +4,9 @@
     <title>Peruvian Vacation</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
   </head>
   <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
@@ -20,16 +23,56 @@
 </nav>
   <body>
   <div class="container">
-    <div class="jumbotron">
-      <div class="media">
-        <div class="media-body">
-          <h1>Peruvian Vacation</h1>
-          <p>Visit Peru</p>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div class="jumbotron">
+            <div class="media">
+              <div class="media-body">
+                <h1>Peruvian Vacation</h1>
+                <p>Visit Peru</p>
+                 <button type="button" class="btn btn-default" aria-label="left-align">Click Here</button>
+              </div>
+              <div class="media-right media-middle">
+                <img class="media-object" src="img/llama.jpeg" />
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="media-right media-middle">
-          <img class="media-object" src="img/llama.jpeg" />
+
+      <div class="item">
+        <div class="jumbotron slide">
+        <p>This is slide 2</p>
         </div>
       </div>
+
+      <div class="item slide3">
+        <div class="jumbotron slide3">
+        <p>Hi</p>
+          <div class="carousel-caption">
+          ...
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
 
     <div class="row">
@@ -90,4 +133,4 @@
     </div>
   </div>
   </body>
-</html>
+ </html>

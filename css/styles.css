@@ -26,3 +26,12 @@
 .glyphicon {
   font-size: 20px;
 }
+
+.row {
+  margin: 0;
+}
+
+.slide {
+  height: 280px;
+  padding-bottom: 48px;
+}
